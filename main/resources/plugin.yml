@@ -1,0 +1,28 @@
+name: QezyMob
+version: ${project.version}
+main: com.qezy.qezymob.QezyMob
+api-version: 1.16
+author: Qezy
+description: custom natural spawning mob
+discord: Toz#2443
+commands:
+  qezymob:
+    description: plugin author information
+    usage: /<command>
+    aliases: [qezy, qezymob]
+  turtle:
+    description: spawns turtle helmet
+    usage: /<command>
+    permission: qezymob.turtle
+  freeze:
+    description: freezes player
+    usage: /<command> <player>
+    permission: qezymob.freeze
+  unfreeze:
+    description: unfreezes player
+    usage: /<command> <player>
+    permission: qezymob.unfreeze
+
+
+
+

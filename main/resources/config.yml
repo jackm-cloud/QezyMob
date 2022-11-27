@@ -1,0 +1,18 @@
+qezy:
+  placeholders:
+    initial: "<:"
+    final: ":>"
+  style:
+    stylechar: "&"
+  noPermission: "&c&l(qezyFreeze) &8» &cYou do not have permission to use that command."
+  commands:
+    freeze:
+      error:
+        syntax: "&c&l(qezyFreeze) &8» &7Use &c&o/<:command:> <player name>&7."
+        unknown: "&c&l(qezyFreeze) &8» &7The player &c&o<:player:> &7is not to be found."
+      none: "&c&l(qezyFreeze) &8» &cThe player's freeze status is still the same."
+      frozen: "&b&l(qezyFreeze) &8» &7The player &b&o<:player:> &7was &b&ofrozen&7."
+      unfrozen: "&c&l(qezyFreeze) &8» &7The player &c&o<:player:> &7was &c&ounfrozen&7."
+  punishMessage:
+    freeze: "&b&l(qezyFreeze) &8» &7You have been &b&ofrozen&7."
+    unfreeze: "&c&l(qezyFreeze) &8»&7You have been &c&ounfrozen&7."
